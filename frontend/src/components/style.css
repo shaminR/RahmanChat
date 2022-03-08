@@ -1,0 +1,40 @@
+.chat {
+    /* position: absolute;
+    right: 50%; */
+    display: flex;
+    padding: 20px;
+    margin-top: 20%;
+    border-radius: 5px;
+    box-shadow: grey 10px 8px 14px 11px;
+    flex-direction: column;
+}
+.chat .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.chat .top .left {
+    margin-right: 20px;
+    width: calc(60% - (0.5em + 6px));
+}
+.chat .top .right {
+    width: calc(40% - (0.5em + 6px));
+}
+.chat .top .left .textview {
+    background-color: gray;
+    min-height: 300px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    min-width: 250px;
+}
+.chat .top .right .users {
+    background-color: gray;
+    margin-top: 10px;
+    min-height: 300px;
+    border-radius: 4px;
+    padding: 10px;
+    min-width: 150px;
+}
+.container {
+}
